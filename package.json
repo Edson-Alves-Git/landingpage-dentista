@@ -1,0 +1,23 @@
+{
+  "name": "landingpage-dentista",
+  "version": "1.0.0",
+  "description": "Landing page profissional para clínica odontológica",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "browser-sync start --server --files '*.html, *.css'"
+  },
+  "keywords": [
+    "dentista",
+    "landing-page",
+    "odontologia",
+    "html",
+    "css"
+  ],
+  "author": "Edson Alves",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "serve": "^14.2.1"
+  }
+}
